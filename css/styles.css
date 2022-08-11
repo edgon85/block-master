@@ -1,0 +1,11 @@
+@import './fonts.css';
+@import './base.css';
+@import './components/buttons/buttons.css';
+@import './components/inputs/search-input.css';
+@import './components/ui/ranking-point.css';
+@import './components/ui/card.css';
+
+.container{
+    border: 1px solid red;
+    padding: 1rem;
+}
