@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,11 +11,40 @@
   <link rel="stylesheet" href="./css/styles.css">
   <title>Block Master</title>
 </head>
+
 <body>
 
-<header>
+  <header class="header">
+    <div class="wrapper">
 
-</header>
+
+      <nav class="navigation">
+        <div class="logo">
+          <img src="./assets/images/logo-block-buster.png" alt="Logo block master">
+        </div>
+        <ul class="items">
+          <li class="item">
+            <a href="#">Todas</a>
+          </li>
+          <li class="item">
+            <a href="#">Más valoradas</a>
+          </li>
+          <li class="item">
+            <a href="#">Menos valoradas</a>
+          </li>
+        </ul>
+        <div class="search">
+          <form>
+            <div class="input-search">
+              <input type="text" placeholder="Buscar tu pelicula favorita">
+              <span><i class="icon-search"></i></span>
+            </div>
+          </form>
+        </div>
+
+      </nav>
+    </div>
+  </header>
 
   <div class="container">
     <button class="btn btn-yelow"><i class="icon-play"></i> VER AHORA</button>
@@ -22,17 +52,17 @@
     <button class="btn btn-black"><i class="icon-plus"></i> VER DESPUÉS</button>
   </div>
   <div class="container">
-   
+
     <form>
-      
+
       <div class="input-search">
         <input type="text" placeholder="Buscar tu pelicula favorita">
         <span><i class="icon-search"></i></span>
       </div>
-      </form>
+    </form>
   </div>
 
-<!--   <div class="container">
+  <!--   <div class="container">
     <div class="ranking-point">
       <div class="ranking-content">
         <i class="icon-star"></i>
@@ -54,12 +84,12 @@
 
     <div class="card">
       <div class="card-content">
-      <div class="ranking-point">
-        <div class="ranking-content">
-          <i class="icon-star"></i>
-          <span class="point">7.1</span>
+        <div class="ranking-point">
+          <div class="ranking-content">
+            <i class="icon-star"></i>
+            <span class="point">7.1</span>
+          </div>
         </div>
-      </div>
         <div class="image">
           <img src="./assets/images/artemis-fowl.jpg" alt="portada de ava">
         </div>
@@ -68,12 +98,12 @@
 
     <div class="card">
       <div class="card-content">
-      <div class="ranking-point">
-        <div class="ranking-content  is-featured">
-          <i class="icon-star"></i>
-          <span class="point">7.1</span>
+        <div class="ranking-point">
+          <div class="ranking-content  is-featured">
+            <i class="icon-star"></i>
+            <span class="point">7.1</span>
+          </div>
         </div>
-      </div>
         <div class="image">
           <img src="./assets/images/rogue.jpg" alt="portada de ava">
         </div>
@@ -81,4 +111,5 @@
     </div>
   </div>
 </body>
+
 </html>

@@ -4,6 +4,8 @@
 @import './components/inputs/search-input.css';
 @import './components/ui/ranking-point.css';
 @import './components/ui/card.css';
+@import './components/header/header.css';
+@import './wrapper.css';
 
 .container{
     border: 1px solid red;

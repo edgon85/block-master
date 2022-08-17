@@ -4,6 +4,7 @@
 
 .card-content {
   max-inline-size: 5rem;
+  cursor: pointer;
 }
 
 .card .image {
