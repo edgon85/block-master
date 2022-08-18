@@ -3,7 +3,8 @@
 }
 
 .card-content {
-  max-inline-size: 5rem;
+  /* max-inline-size: 5rem; */
+  max-inline-size: 13.75rem;
   cursor: pointer;
 }
 
