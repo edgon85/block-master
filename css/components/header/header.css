@@ -1,23 +1,21 @@
 @import './items.css';
+@import './search-input.css';
+@import './search-hamburguer.css';
 
-.header{
-  /* border: 1px solid green; */
-  /* padding-block-start: 1.5rem; */
-}
 
 .navigation {
-  block-size: 7rem;
+  block-size: 3.5rem;
   display: flex;
   flex-direction: row;
-  /* border: 1px solid yellow; */
   justify-content: space-between;
   text-align: center;
   gap: 3rem;
 }
 
-.logo{
-  width: 107px;
-  height: 64px;
+.logo {
+  width: 66px;
+  height: 40px;
+
   align-self: center;
 }
 
@@ -26,9 +24,13 @@
   vertical-align: middle;
 }
 
+@media screen and (min-width: 768px) {
+  .navigation {
+    block-size: 7rem;
+  }
 
-.search {
-  /* height: 44px; */
-  flex: 2;
-  align-self: center;
+  .logo {
+    width: 107px;
+    height: 64px;
+  }
 }

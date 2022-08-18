@@ -1,115 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Block Master</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/styles.css">
-  <title>Block Master</title>
-</head>
-
-<body>
-
-  <header class="header">
-    <div class="wrapper">
-
-
-      <nav class="navigation">
-        <div class="logo">
-          <img src="./assets/images/logo-block-buster.png" alt="Logo block master">
-        </div>
-        <ul class="items">
-          <li class="item">
-            <a href="#">Todas</a>
-          </li>
-          <li class="item">
-            <a href="#">Más valoradas</a>
-          </li>
-          <li class="item">
-            <a href="#">Menos valoradas</a>
-          </li>
-        </ul>
-        <div class="search">
-          <form>
-            <div class="input-search">
-              <input type="text" placeholder="Buscar tu pelicula favorita">
-              <span><i class="icon-search"></i></span>
-            </div>
-          </form>
-        </div>
-
-      </nav>
-    </div>
-  </header>
-
-  <div class="container">
-    <button class="btn btn-yelow"><i class="icon-play"></i> VER AHORA</button>
-    <br>
-    <button class="btn btn-black"><i class="icon-plus"></i> VER DESPUÉS</button>
-  </div>
-  <div class="container">
-
-    <form>
-
-      <div class="input-search">
-        <input type="text" placeholder="Buscar tu pelicula favorita">
-        <span><i class="icon-search"></i></span>
-      </div>
-    </form>
-  </div>
-
-  <!--   <div class="container">
-    <div class="ranking-point">
-      <div class="ranking-content">
-        <i class="icon-star"></i>
-        <span class="point">7.1</span>
-      </div>
-    </div>
-    <br>
-    <div class="ranking-point">
-      <div class="ranking-content is-featured">
-        <i class="icon-star"></i>
-        <span class="point">5.0</span>
-      </div>
-    </div>
-  </div> -->
-
-  <br>
-
-  <div class="container">
-
-    <div class="card">
-      <div class="card-content">
-        <div class="ranking-point">
-          <div class="ranking-content">
-            <i class="icon-star"></i>
-            <span class="point">7.1</span>
+  <body>
+    <header class="header">
+      <div class="wrapper">
+        <nav class="navigation">
+          <div class="logo">
+            <img
+              src="./assets/images/logo-block-buster.png"
+              alt="Logo block master"
+            />
           </div>
-        </div>
-        <div class="image">
-          <img src="./assets/images/artemis-fowl.jpg" alt="portada de ava">
-        </div>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card-content">
-        <div class="ranking-point">
-          <div class="ranking-content  is-featured">
-            <i class="icon-star"></i>
-            <span class="point">7.1</span>
+          <ul class="items">
+            <li class="item">
+              <a href="#">Todas</a>
+            </li>
+            <li class="item">
+              <a href="#">Más valoradas</a>
+            </li>
+            <li class="item">
+              <a href="#">Menos valoradas</a>
+            </li>
+          </ul>
+          <div class="search">
+            <form>
+              <div class="input-search">
+                <input type="text" placeholder="Buscar tu pelicula favorita" />
+                <span><i class="icon-search"></i></span>
+              </div>
+            </form>
           </div>
-        </div>
-        <div class="image">
-          <img src="./assets/images/rogue.jpg" alt="portada de ava">
-        </div>
+          <div class="search-hamburguer">
+            <button class="btn-icon"><i class="icon-search"></i></button>
+            <button class="btn-icon"><i class="icon-menu"></i></button>
+          </div>
+        </nav>
       </div>
-    </div>
-  </div>
-</body>
-
+    </header>
+  </body>
 </html>
